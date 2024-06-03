@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+        .main {
+            width: 100%;
+            height: 120px;
+            background-color: #395693;
+        }
+
+        .item {
+            width: 50%;
+            height: 150px;
+            float: left;
+            
+        }
+
+        .logo {
+            color: aliceblue;
+            font-size:3vw;
+            margin-left: 40px;
+            margin-top: 50px;
+        }
+
+        .subitem {
+            width: 33%;
+            height: 150px;
+            float: left;
+        }
+
+        .btn {
+            background-color: #395693;
+            padding: 8px 15px;
+            color: aliceblue;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: inset 0px 0px 10px 0px white;
+            margin-top: 10px;
+        }
+
+        .label1 {
+            color: aliceblue;
+        }
+
+        .inputBox{
+            background-color: whites;
+            padding: 10px;
+            margin-top: 10px;
+            color: black;
+            
+
+        }
+
+        .inputBox::placeholder {
+            color: black
+        }
+
+        .main2{
+            background-color: aliceblue;
+            width: 100%;
+            height: 650px;
+        }
+        .item4{
+            width: 50%;
+            /* background-color: red; */
+            height: 800px;
+            margin-left: 50%;
+        }
+        .hehe{
+            margin-top: 6px;
+        }
+        .item4sub{
+            width: 600px;
+            height: 200px;
+            /* background-color: red;    */
+            margin-top: 80px;
+            font-size: 20px ;
+        }
+        .joy{
+            margin-left: 10px;
+            margin-top: 10px;
+            background-color: whites;
+            padding: 10px;
+            margin-top: 10px;
+            color: black;
+            width: 250px;
+        }
+        .joy1{
+            margin-left: 180px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="item box1">
+            <h1 class="logo">Facebook</h1>
+        </div>
+        <div class="item">
+            <div class="subitem">
+                <br><br>
+
+                <!-- <label>Name</label> -->
+                <label class="label1">Remember me </label>
+                <input type="checkbox"/>    
+                <input type="text" class="inputBox" placeholder="Name" />
+            </div>
+            <div class="subitem">
+                <br><br>
+
+                <!-- <label>Email</label> -->
+                <label class="label1">Forgot password ?</label>
+                <input type="text" class="inputBox" placeholder="password" />
+            </div>
+            <div class="subitem">
+                <br>
+                <br><br>
+                <button class="btn">Login</button>
+            </div>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="item box2">
+            <h1 class="hehe" style="font-size:2vw;">Facebook Helps you to connect and share with the peoples in the world.</h1>
+                <div>
+                    <img src="networking.png" alt="networking" width="600px" style="margin-left: 20px; margin-top: 50px; background-size: cover;">
+                </div>
+        </div>
+        <div class="item4">
+            <div >
+                   <br>
+                   <br>
+                   <h1>Sign Up Now</h1>
+                   <br>
+                   <h1>Its Free and Anyone Can Join us </h1>
+                </div>
+                <div class="item4sub">
+                    
+                    <label class="joy1" > First Name: </label>
+                    <input type="text" class="joy" required placeholder="First Name">
+                    <label class="joy1" >Last Name: </label>
+                    <input type="text" class="joy" required placeholder="Last Name">
+                    <label class="joy1" >Your Email:</label>
+                    <input type="text" class="joy"  required placeholder="abc@gmail.com">
+                    <label class="joy1" >Password:&nbsp;&nbsp; </label>
+                    <input type="text" class="joy" required placeholder="145f@head">
+                    <label for="select" class="joy1">&nbsp;&nbsp;&nbsp;&nbsp;  I AM :&nbsp;&nbsp;&nbsp;</label>
+                    <select class="joy">
+                        <option value="">Select Sex</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                    <label class="joy1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOB:&nbsp;&nbsp;</label>
+                    <input type="date" id="date" class="joy" required placeholder="Enter date" />
+
+                    <h5><pre style="margin-top: 15px; margin-left: 280px;"> why do i need to provide this ?</pre></h5>
+
+                    <button class="btn" style="margin-left: 280px; margin-top: 25px; background-color: green;">SIGN UP </button>
+                    <p >------------------------------------------------------------------------------------------ </p>
+
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    </div>
+</body>
+
+</html>
